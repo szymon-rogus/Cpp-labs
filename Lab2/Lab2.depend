@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1553612261 source:/home/szymon/Zadania/C++ - 4semestr/Lab2/Implement.cpp
+	"Matrix.hpp"
+	"Point.hpp"
+
+1553612235 /home/szymon/Zadania/C++ - 4semestr/Lab2/Matrix.hpp
+	<iostream>
+
+1553611920 /home/szymon/Zadania/C++ - 4semestr/Lab2/Point.hpp
+	<iostream>
+
+1553611359 source:/home/szymon/Zadania/C++ - 4semestr/Lab2/main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<sstream>
+	<ostream>
+	<istream>
+	<stdio.h>
+	<string.h>
+	"Point.hpp"
+	"Matrix.hpp"
+

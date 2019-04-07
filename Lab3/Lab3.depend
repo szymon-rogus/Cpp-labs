@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1554211498 source:/home/szymon/Zadania/C++ - 4semestr/Lab3/class.cpp
+	"class.hpp"
+	<string>
+	<iomanip>
+	<utility>
+	<algorithm>
+	<stdexcept>
+
+1554211669 /home/szymon/Zadania/C++ - 4semestr/Lab3/class.hpp
+	<iostream>
+	<utility>
+
+1554211643 source:/home/szymon/Zadania/C++ - 4semestr/Lab3/main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<sstream>
+	<ostream>
+	<istream>
+	<stdio.h>
+	<string.h>
+	"class.hpp"
+
