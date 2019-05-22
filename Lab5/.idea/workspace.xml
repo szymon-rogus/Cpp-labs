@@ -12,14 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f576609d-d29d-4ec1-b14e-c7f0d1e73e17" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lab4-od/.idea/Lab4-od.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/PojazdOsobowy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/PojazdOsobowy.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/PojazdSilnikowy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/PojazdSilnikowy.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/Rower.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lab4/Rower.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab3/Lab3.layout" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab3/Lab3.layout" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/CMakeLists.txt" afterDir="false" />
@@ -27,6 +19,12 @@
       <change beforePath="$PROJECT_DIR$/../Lab4/Osoba.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/Osoba.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4/Pojazd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/Pojazd.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4/Pojazd.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/Pojazd.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/PojazdOsobowy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/PojazdOsobowy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/PojazdOsobowy.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/PojazdOsobowy.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/PojazdSilnikowy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/PojazdSilnikowy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/PojazdSilnikowy.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/PojazdSilnikowy.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/Rower.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/Rower.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/Rower.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/Rower.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/Osoba.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/Osoba.cpp.o" afterDir="false" />
@@ -44,6 +42,7 @@
       <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/Lab4.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/Lab4.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lab4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab6/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,12 +60,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+            <state relative-caret-position="525">
+              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
-                <element signature="e#75#87#0" expanded="true" />
-                <element signature="e#196#198#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -75,11 +72,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/List.hpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
+            <state relative-caret-position="498">
               <caret line="98" selection-start-line="98" selection-end-line="98" />
-              <folding>
-                <element signature="e#123#135#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +115,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,9 +126,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -179,16 +174,17 @@
       <workItem from="1558461839020" duration="4589000" />
       <workItem from="1558512048392" duration="1478000" />
       <workItem from="1558536945879" duration="362000" />
+      <workItem from="1558540615769" duration="299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21894000" />
+    <option name="totallyTimeSpent" value="22193000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="961" height="1053" extended-state="4" />
+    <frame x="0" y="0" width="953" height="1053" extended-state="4" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28789532" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29372936" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -220,22 +216,17 @@
     <entry file="file://$PROJECT_DIR$/treeBST.cpp" />
     <entry file="file://$PROJECT_DIR$/List.hpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
+        <state relative-caret-position="498">
           <caret line="98" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="e#123#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
+        <state relative-caret-position="525">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-            <element signature="e#75#87#0" expanded="true" />
-            <element signature="e#196#198#0" expanded="true" />
           </folding>
         </state>
       </provider>
