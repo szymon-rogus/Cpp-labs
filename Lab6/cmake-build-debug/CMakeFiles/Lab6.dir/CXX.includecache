@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/szymon/Zadania/C++ - 4semestr/Lab6/Tree.hpp
+iostream
+-
+random
+-
+cmath
+-
+cstdlib
+-
+sstream
+-
+
+/home/szymon/Zadania/C++ - 4semestr/Lab6/main.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+set
+-
+map
+-
+Tree.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab6/Tree.hpp
+
