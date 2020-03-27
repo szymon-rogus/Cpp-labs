@@ -4,98 +4,79 @@
 #include <set>
 #include <map>
 
-#include "Tree.hpp"
+#include "Animal.hpp"
 
 using namespace std;
 
-vector<Tree> generate(){
-    vector<Tree> BotanicGarden;
+Animal animalGen () { return Animal();}
 
-    for(int i = 0; i < 25; i++){
-        Tree treeBotanic = Tree();
-        BotanicGarden.push_back(treeBotanic);
-        cout<<BotanicGarden[i]<<endl;
-    }
+vector<Animal> generate(){
+    vector<Animal> Zoo (15);
 
-    return BotanicGarden;
+    generate(Zoo.begin(), Zoo.end(), animalGen);
+
+    /*for(int i = 0; i < 15; i++){
+        cout<<Zoo[i]<<endl;
+    }*/
+    return Zoo;
 }
 
-void minElement(vector<Tree> BotanicGarden){
-    Tree tree = BotanicGarden[0];
-    for(auto it : BotanicGarden){
-        if(it.getDiameter() < tree.getDiameter())
-            tree = it;
-    }
-    cout<<tree<<endl;
+void maxElement(const vector<Animal> Zoo){
+    Animal animal = *min_element(Zoo.begin(), Zoo.end(), Animal::ByAge());
+    cout<<animal<<endl;
 }
 
-// for_each
-void grow(vector<Tree> & BotanicGarden){
-    for(int i = 0; i < BotanicGarden.size(); i++){
-        BotanicGarden[i].setDiameter(BotanicGarden[i].getDiameter() + 0.1);
-        cout<<BotanicGarden[i]<<endl;
-    }
+void for_each(vector<Animal> & Zoo){
+
+    for_each(Zoo.begin(), Zoo.end(), [](Animal &animal){
+        int age = animal.getAge();
+        animal.setAge(age+1);
+    });
 }
 
-//remove_if
-void remove(vector<Tree> & BotanicGarden){
-    for(auto it = BotanicGarden.begin(); it != BotanicGarden.end(); it++){
-        if(it->getDiameter() > 1.0){
-            BotanicGarden.erase(it);
-            it--;
-        }
-    }
+void remove_if(vector<Animal> & Zoo){
+    auto it = remove_if(Zoo.begin(), Zoo.end(), [](Animal &animal){
+        return animal.getAge() > 10;
+    });
 }
 
-//count_if
-void count(vector<Tree> & BotanicGarden){
-    string type;
-    cout<<"Podaj gatunek:"<<endl;
-    cin>>type;
+int count_if(vector<Animal> & Zoo, string species){
 
-    int counter = 0;
-    for(auto it : BotanicGarden){
-        if(it.getSpecies() == type){
-            counter++;
-        }
-    }
-
-    cout<<"Ilość drzew z podanego gatunku to: " + to_string(counter)<<endl;
+    int counter = count_if(Zoo.begin(), Zoo.end(), [&species](Animal &animal){
+       return animal.getSpecies() == species;
+    });
+    return counter;
 }
 
 int main(void) {
     srand(time(NULL));
 
-    vector<Tree> BotanicGarden = generate();
+    vector<Animal> Zoo = generate();
 
     cout<<"----------------------------------------------"<<endl;
 
-    //minElement(BotanicGarden);  //ok
-    //remove(BotanicGarden);  //ok
-    //grow(BotanicGarden);
-    //for(int i = 0; i < BotanicGarden.size(); i++){
-    //    cout<<BotanicGarden[i]<<endl;
-    //}
-    //count(BotanicGarden);
+    maxElement(Zoo);  //ok
+    cout<<count_if(Zoo, "kot")<<endl;  //ok
+    remove_if(Zoo);  //ok
+    for_each(Zoo); //ok
 
     cout<<"-------------------------------------------"<<endl;
 
-    set<Tree> BotanicSet;
+    set<Animal> ZooSet;
 
-    for(const Tree &i: BotanicGarden){
-        auto result = BotanicSet.insert(i);
-        if(!result.second)
-            cout<<i<<endl;
+    for(auto &animal : Zoo){
+        if(!ZooSet.insert(animal).second)
+            cout<<animal<<endl;
     }
 
     cout<<"-------------------------------------------"<<endl;
 
-    map<int,Tree> BotanicMap;
+    map<string,Animal> ZooMap;
 
     for(int i = 0; i < 10; i++){
-        Tree treeMap = Tree();
-        int key = treeMap.getKey();
-        BotanicMap[key] = treeMap;
-        cout<<key<<" "<<treeMap<<endl;
+        Animal animal = Animal();
+        string key = animal.getKey();
+        ZooMap.insert(pair<string, Animal>(key, animal));
+        cout<<animal<<endl;
     }
 }

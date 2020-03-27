@@ -2,8 +2,8 @@
 // Created by szymon on 22.05.19.
 //
 
-#ifndef LAB6_TREE_HPP
-#define LAB6_TREE_HPP
+#ifndef LAB6_ANIMAL_HPP
+#define LAB6_ANIMAL_HPP
 
 #include <iostream>
 #include <random>
@@ -26,9 +26,9 @@ public:
     Animal();
     ~Animal() = default;
     bool isEqual(const Animal & animal);
-    string getKey();
+    string getKey() const;
     friend bool operator< (const Animal &left, const Animal &right);
-    friend bool operator== (const Animal &left, const Animal &right);
+    friend bool operator == (Animal &left, Animal &right);
     friend ostream& operator<<(std::ostream& o, const Animal &animal);
 
     string getSpecies(){
@@ -42,6 +42,16 @@ public:
     int getAge(){
         return this -> age;
     }
+
+    void setAge(int age){
+        this->age = age;
+    }
+
+    struct ByAge{
+        bool operator()(const Animal &animal, const Animal &animal2) const{
+            return animal.age > animal2.age;
+        }
+    };
 };
 
 Animal::Animal() {
@@ -50,28 +60,22 @@ Animal::Animal() {
     age = rand()%(20) + 1;
 }
 
-string Animal::getKey() {
+string Animal::getKey() const{
     string key = this -> species + this -> name;
     return key;
 }
 
-bool Animal::isEqual(const Tree & tree) {
-    if(this->age == tree.age && this->species == tree.species)
-        return true;
-    return false;
+bool operator< (const Animal &left, const Animal &right){
+    return left.age < right.age;
 }
 
-bool operator< (const Tree &left, const Tree &right){
-    return left.age + atoi(left.species.c_str()) < right.age + atoi(right.species.c_str());
+bool operator == (Animal &left, Animal &right){
+    return left.getKey() == right.getKey();
 }
 
-bool operator== (const Tree &left, const Tree &right){
-    return left.age + atoi(left.species.c_str()) == right.age + atoi(right.species.c_str());
-}
-
-ostream& operator<<(std::ostream& o, const Tree &right){
-    o <<right.species<<" "<<right.age<<" "<<right.diameter;
+ostream& operator<<(std::ostream& o, const Animal &right){
+    o <<right.name<<" "<<right.species<<" "<<right.age;
     return o;
 }
 
-#endif //LAB6_TREE_HPP
+#endif //LAB6_ANIMAL_HPP
