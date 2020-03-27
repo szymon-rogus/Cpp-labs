@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1553006219 source:/home/szymon/Zadania/C++ - 4semestr/Lab1/main.cpp
+	<iostream>
+	<string>
+	<cstdlib>
+	<cstdio>
+	<sstream>
+	<ostream>
+	<istream>
+	<stdio.h>
+	<string.h>
+	"data.hpp"
+
+1553006646 source:/home/szymon/Zadania/C++ - 4semestr/Lab1/data.cpp
+	"data.hpp"
+
+1553005561 /home/szymon/Zadania/C++ - 4semestr/Lab1/data.hpp
+	<iostream>
+	<sstream>
+

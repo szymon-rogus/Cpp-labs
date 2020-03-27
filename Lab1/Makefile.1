@@ -1,0 +1,13 @@
+# Mój plik makefile - wpisz 'make all' aby skompilować cały program
+# (właściwie wystarczy wpisać 'make' - all jest domyślny jako pierwszy cel)
+CC = g++  
+
+all: main.o data.o
+  $(CC) main.o data.o -o test
+
+main.o: main.cpp
+  $(CC) main.cpp -c -o pierwszy.o
+
+data.o: data.cpp data.hpp
+  $(CC) data.cpp -c -o data.o
+
