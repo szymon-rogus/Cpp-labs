@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Lab4_od.dir/main.cpp.o CMakeFiles/Lab4_od.dir/Punkt.cpp.o CMakeFiles/Lab4_od.dir/Figura.cpp.o CMakeFiles/Lab4_od.dir/Trojkat.cpp.o CMakeFiles/Lab4_od.dir/Kolo.cpp.o CMakeFiles/Lab4_od.dir/Pierscien.cpp.o  -o Lab4_od 

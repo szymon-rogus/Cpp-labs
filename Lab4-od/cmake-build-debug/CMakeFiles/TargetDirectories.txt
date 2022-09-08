@@ -1,0 +1,3 @@
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/cmake-build-debug/CMakeFiles/Lab4_od.dir
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/cmake-build-debug/CMakeFiles/edit_cache.dir

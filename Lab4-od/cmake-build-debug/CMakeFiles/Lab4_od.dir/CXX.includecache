@@ -1,0 +1,94 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Figura.hpp
+string
+-
+iostream
+-
+sstream
+-
+Punkt.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Punkt.hpp
+
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Kolo.cpp
+Kolo.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Kolo.hpp
+Figura.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Figura.hpp
+string
+-
+
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Kolo.hpp
+string
+-
+iostream
+-
+sstream
+-
+Figura.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Figura.hpp
+
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Pierscien.cpp
+Pierscien.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Pierscien.hpp
+
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Pierscien.hpp
+string
+-
+iostream
+-
+sstream
+-
+Kolo.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Kolo.hpp
+
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Punkt.hpp
+string
+-
+iostream
+-
+sstream
+-
+
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Trojkat.cpp
+Trojkat.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Trojkat.hpp
+Punkt.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Punkt.hpp
+
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Trojkat.hpp
+string
+-
+iostream
+-
+sstream
+-
+Punkt.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Punkt.hpp
+Figura.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Figura.hpp
+
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/main.cpp
+iostream
+-
+cstdlib
+-
+ctime
+-
+Punkt.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Punkt.hpp
+Figura.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Figura.hpp
+Trojkat.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Trojkat.hpp
+Kolo.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Kolo.hpp
+Pierscien.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab4-od/Pierscien.hpp
+

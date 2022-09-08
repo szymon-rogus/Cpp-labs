@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/szymon/Zadania/C++ - 4semestr/Lab6/Tree.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab6/Animal.hpp
 iostream
 -
 random
@@ -29,6 +29,6 @@ set
 -
 map
 -
-Tree.hpp
-/home/szymon/Zadania/C++ - 4semestr/Lab6/Tree.hpp
+Animal.hpp
+/home/szymon/Zadania/C++ - 4semestr/Lab6/Animal.hpp
 

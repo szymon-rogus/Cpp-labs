@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/szymon/Zadania/C++ - 4semestr/Lab6/Tree.hpp">
+		<Unit filename="/home/szymon/Zadania/C++ - 4semestr/Lab6/Animal.hpp">
 			<Option target="Lab6"/>
 		</Unit>
 		<Unit filename="/home/szymon/Zadania/C++ - 4semestr/Lab6/main.cpp">

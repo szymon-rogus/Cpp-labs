@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="49d98c9d-6d68-4a5f-b1dc-f785bcbc76f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab4-od/.idea/Lab4-od.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/PojazdOsobowy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/PojazdOsobowy.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/PojazdSilnikowy.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/PojazdSilnikowy.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/Rower.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab4/Rower.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lab3.layout" beforeDir="false" afterPath="$PROJECT_DIR$/Lab3.layout" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/Osoba.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/Osoba.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/Osoba.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/Osoba.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/Pojazd.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/Pojazd.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/Pojazd.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/Pojazd.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/Osoba.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/Osoba.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/Pojazd.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/Pojazd.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Lab4.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/Lab4" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/Lab4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/Lab4.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/Lab4.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab4/main.cpp" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-450" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="960" />
+    <option name="width" value="961" />
+    <option name="height" value="1053" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab3" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49d98c9d-6d68-4a5f-b1dc-f785bcbc76f0" name="Default Changelist" comment="" />
+      <created>1558447089288</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558447089288</updated>
+      <workItem from="1558447090584" duration="145000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="145000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="960" y="0" width="961" height="1053" extended-state="4" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5114504" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/class.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+  </component>
+</project>
